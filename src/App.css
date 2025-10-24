@@ -1,0 +1,126 @@
+/* Montserrat & Standout Headline Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@600&display=swap');
+
+body {
+  background: #f2ddb0;
+  color: #2d261a;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-section {
+  width: 100vw;
+  height: 100vh;
+  background: #f2ddb0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Big Computer Icon */
+.landing-computer-big svg {
+  display: block;
+  margin: 0 auto 24px;
+  width: 140px;
+  height: 140px;
+  max-width: 20vw;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Github icon absolute at top left! */
+.github-corner-abs {
+  position: fixed;
+  top: 32px;
+  left: 40px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+
+/* Name - big, bold, extra special */
+.landing-name,
+.standout-title {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: .03em;
+  color: #3e3121;
+  margin-bottom: 18px;
+  margin-top: 0;
+  text-shadow: 0 4px 14px rgba(44,32,10,0.11);
+}
+@media (max-width: 650px){
+  .landing-name,
+  .standout-title { font-size: 2em; }
+}
+
+/* Headline - big typewriter! */
+.landing-role,
+.big-typewriter {
+  font-size: 1.63rem;
+  font-family: 'Fira Mono', 'Menlo', 'Consolas', monospace;
+  font-weight: 600;
+  letter-spacing: .01em;
+  margin-bottom: 43px;
+  margin-top: -6px;
+  color: #453823;
+  line-height: 1.36;
+}
+@media (max-width: 650px){
+  .landing-role,
+  .big-typewriter { font-size: 1.19rem; }
+}
+
+/* Rainbow Footer from before */
+.portfolio-footer {
+  background: #121212;
+  width: 100vw;
+  padding: 12px 0 10px 0;
+  font-family: 'Montserrat', 'Segoe UI', 'Poppins', Arial, sans-serif;
+  font-size: 1.07rem;
+  letter-spacing: 0.04em;
+  border-top: 2px solid #46382a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-rainbow {
+  background: linear-gradient(
+    90deg,
+    #ff6ec4 0%,
+    #f7971e 13%,
+    #43e97b 29%,
+    #38f9d7 44%,
+    #4062ff 57%,
+    #6e45e2 71%,
+    #fc466b 87%,
+    #ff6ec4 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  animation: rainbow-move 3.8s linear infinite alternate;
+  font-size: 1.13rem;
+}
+
+@keyframes rainbow-move {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}

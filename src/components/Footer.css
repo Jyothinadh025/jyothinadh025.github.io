@@ -1,0 +1,39 @@
+.portfolio-footer {
+  background: #121212;
+  width: 100vw;
+  padding: 12px 0 10px 0;
+  font-family: 'Montserrat', 'Segoe UI', 'Poppins', Arial, sans-serif;
+  font-size: 1.07rem;
+  letter-spacing: 0.04em;
+  border-top: 2px solid #46382a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-rainbow {
+  background: linear-gradient(
+    90deg,
+    #ff6ec4 0%,
+    #f7971e 13%,
+    #43e97b 29%,
+    #38f9d7 44%,
+    #4062ff 57%,
+    #6e45e2 71%,
+    #fc466b 87%,
+    #ff6ec4 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  animation: rainbow-move 3.8s linear infinite alternate;
+  font-size: 1.13rem;
+}
+
+@keyframes rainbow-move {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}

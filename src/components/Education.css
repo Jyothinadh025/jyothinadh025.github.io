@@ -1,0 +1,100 @@
+.edu-section {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #282016 60%, #46382a 100%);
+  color: #ffdca9;
+  padding: 64px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.edu-header {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #ffdca9;
+  letter-spacing: 0.08em;
+  margin-bottom: 36px;
+  text-shadow: 0 2px 12px #46382a88;
+}
+
+.edu-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+  width: 100%;
+  max-width: 640px;
+}
+
+.edu-card {
+  width: 100%;
+  background: rgba(255, 220, 169, 0.16);
+  border: 1.8px solid #ffdca9;
+  border-radius: 22px;
+  box-shadow: 0 10px 28px #28201644;
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+  padding: 32px 32px 24px 28px;
+  position: relative;
+  transition: box-shadow 0.2s, transform 0.21s;
+  overflow: visible;
+}
+.edu-card:hover {
+  box-shadow: 0 16px 44px #ffdca944;
+  transform: translateY(-2px) scale(1.017);
+}
+
+.edu-icon {
+  background: linear-gradient(140deg, #ffdca9 60%, #46382a 120%);
+  color: #282016;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  margin-right: 4px;
+  box-shadow: 0 5px 18px #ffdca955;
+  flex-shrink: 0;
+  border: 3.2px solid #282016;
+}
+
+.edu-degree {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffdca9;
+  margin-bottom: 7px;
+  letter-spacing: 0.04em;
+}
+.edu-place {
+  font-size: 1rem;
+  color: #fff4e1;
+  margin-bottom: 9px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+}
+
+.edu-details {
+  display: flex;
+  gap: 24px;
+  font-size: 1rem;
+  margin-top: 2px;
+}
+.edu-year {
+  color: #ffdca9;
+  font-weight: 600;
+}
+.edu-cgpa {
+  color: #ffe8c5;
+}
+@media (max-width: 700px) {
+  .edu-section { padding: 38px 0 24px 0; }
+  .edu-header { font-size: 1.25rem; margin-bottom: 20px; }
+  .edu-timeline { max-width: 96vw; gap: 22px; }
+  .edu-card { flex-direction: column; align-items: flex-start; padding: 18px 13px; gap: 15px; }
+  .edu-icon { margin-right: 0; }
+}
