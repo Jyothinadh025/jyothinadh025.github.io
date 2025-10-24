@@ -17,6 +17,15 @@ A modern, responsive personal portfolio website built with **React** and hosted 
 ## 📸 Screenshots
 
 *(Insert a screenshot of your homepage and/or timeline section here — upload your screenshot to `src/assets/` and link below)*
+## Screenshots
+
+![Homepage](assets/screenshot1.PNG)
+
+![AboutPage](assets/screenshot2.PNG).
+
+![Projects Section](assets/screenshot2.PNG)
+
+![Internship Timeline](assets/screenshot3.PNG)
 
 ![Portfolio Screenshot](src/assets/your-screenshot.jpg)
 
