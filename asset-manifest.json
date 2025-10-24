@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a072835f.css",
+    "main.js": "/static/js/main.da95f3b8.js",
+    "static/js/453.28430aee.chunk.js": "/static/js/453.28430aee.chunk.js",
+    "static/media/profile1.jpg": "/static/media/profile1.c1f27381d1d7fa789e0b.jpg",
+    "static/media/portfolioImg.jpg": "/static/media/portfolioImg.05952a925734e96a1a3e.jpg",
+    "static/media/myphoto.JPG": "/static/media/myphoto.514b816861e9e595d940.JPG",
+    "static/media/ppe-detection-smart-helmet.jpg": "/static/media/ppe-detection-smart-helmet.6fbc30e1e840818f0651.jpg",
+    "static/media/weatherAppImg.jpg": "/static/media/weatherAppImg.8ea5718206abf34dffce.jpg",
+    "static/media/student-result-management.jpg": "/static/media/student-result-management.9341ddb8b0d811476bb8.jpg",
+    "static/media/communityServiceImg.jpg": "/static/media/communityServiceImg.688b7fd1e89e3b78466d.jpg",
+    "index.html": "/index.html",
+    "main.a072835f.css.map": "/static/css/main.a072835f.css.map",
+    "main.da95f3b8.js.map": "/static/js/main.da95f3b8.js.map",
+    "453.28430aee.chunk.js.map": "/static/js/453.28430aee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a072835f.css",
+    "static/js/main.da95f3b8.js"
+  ]
+}
