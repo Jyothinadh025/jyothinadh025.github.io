@@ -10,7 +10,7 @@ const projects = [
   {
     id: 1,
     title: "PPE Detection & Smart Helmet Monitoring Using Yolov8 and Sensors",
-    year: "2024",
+    year: "2025",
     imageUrl: ppeHelmetImg,
     description: "Implemented a real-time Personal Protective Equipment detection system using YOLOv8 for helmets, vests, and masks, combined with smart helmet sensor integration for gas, temperature, and worker alerting via GSM. Built with Python, OpenCV, embedded systems, and Flask,"
   },

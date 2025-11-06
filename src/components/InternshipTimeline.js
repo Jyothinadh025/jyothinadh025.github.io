@@ -6,7 +6,7 @@ const internships = [
   {
     company: "KodNest",
     title: "Full Stack Java & Python Intern",
-    duration: "Feb 2025 – Present",
+    duration: "Feb 2025 – oct 2025",
     icon: <FaLaptopCode />,
     color: "#43ad90",
     skills: ["Java", "Spring Boot", "SQL", "HTML", "CSS", "JavaScript", "Python", "MongoDB"],
